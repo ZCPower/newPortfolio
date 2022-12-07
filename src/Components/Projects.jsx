@@ -5,13 +5,9 @@ import SingleProject from './SingleProject'
 
 function Projects() {
 
-    console.log(projects)
-
-    let con = projects.map(x => console.log(x.name, x.description))
-
     let mappedProjects = projects.map((x) => {
         return (
-            <SingleProject name={x.name} image={x.image} link={x.link} logo={x.logo} technologies={x.technologies} description={x.description} />
+            <SingleProject name={x.name} image={x.image} link={x.link} logo={x.logo} technologies={x.technologies} description={x.description} github={x.github} />
         )
     })
 
