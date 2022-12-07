@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+#navBar {
+    position: fixed;
+    /* Trying this at 10vh for now. If I decide I want the nav bar to be flew-row, it will go down to 8vh*/
+    /* height: 10vh; */
+    z-index: 10;
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+ul {
+    font-family: 'Exo 2', sans-serif;
+}

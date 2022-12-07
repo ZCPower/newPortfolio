@@ -1,0 +1,12 @@
+#projContainer {
+    height: 110vh;
+}
+
+#projHouse {
+    /* background-color: black; */
+    overflow-x: scroll;
+}
+
+.singleProject {
+    border-radius: 10px;
+}
