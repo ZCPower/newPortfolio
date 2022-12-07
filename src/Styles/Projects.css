@@ -5,8 +5,14 @@
 #projHouse {
     /* background-color: black; */
     overflow-x: scroll;
+    overflow-y: none;
 }
 
 .singleProject {
     border-radius: 10px;
+}
+
+#projButtons {
+    /* height: 5vh;
+    margin: .25em; */
 }
