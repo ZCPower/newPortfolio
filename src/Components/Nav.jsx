@@ -10,10 +10,10 @@ function Nav() {
             </div>
             <nav>
                 <ul className='flex gap-5 text-xl'>
-                    <li className='py-3 px-5 hover:text-purple hover:bg-darkgray'>Home</li>
-                    <li className='py-3 px-5 hover:text-purple hover:bg-darkgray'>About</li>
-                    <li className='py-3 px-5 hover:text-purple hover:bg-darkgray'>Projects</li>
-                    <li className='py-3 px-5 hover:text-purple hover:bg-darkgray'>Contacts</li>
+                    <li className='py-3 px-5  hover:border-b hover:border-purple'>Home</li>
+                    <li className='py-3 px-5 hover:border-b hover:border-purple'>About</li>
+                    <li className='py-3 px-5 hover:border-b hover:border-purple'>Projects</li>
+                    <li className='py-3 px-5 hover:border-b hover:border-purple'>Contacts</li>
                 </ul>
             </nav>
         </div >
