@@ -16,3 +16,10 @@
     /* height: 5vh;
     margin: .25em; */
 }
+
+.projectPreview {
+    max-height: 30%;
+
+    /* object-fit: cover; */
+    margin: 0 auto;
+}

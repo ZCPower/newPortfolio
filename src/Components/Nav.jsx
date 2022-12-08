@@ -10,7 +10,7 @@ function Nav() {
             </div>
             <nav>
                 <ul className='flex gap-5 text-xl'>
-                    <li className='py-3 px-5  hover:border-b-2 hover:border-purple'>Home</li>
+                    <li className='py-3 px-5  border-b-2 border-black hover:border-b-2 hover:border-purple'>Home</li>
                     <li className='py-3 px-5 hover:border-b-2 hover:border-purple'>About</li>
                     <li className='py-3 px-5 hover:border-b-2 hover:border-purple'>Projects</li>
                     <li className='py-3 px-5 hover:border-b-2 hover:border-purple'>Contacts</li>

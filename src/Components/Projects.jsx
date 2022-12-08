@@ -7,7 +7,7 @@ function Projects() {
 
     let mappedProjects = projects.map((x) => {
         return (
-            <SingleProject name={x.name} image={x.image} link={x.link} logo={x.logo} technologies={x.technologies} description={x.description} github={x.github} />
+            <SingleProject name={x.name} image={x.image} link={x.link} logo={x.logo} technologies={x.technologies} description={x.description} github={x.github} preview={x.preview} />
         )
     })
 
