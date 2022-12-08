@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Nav.css'
+import { Link } from 'react-router-dom'
 
 function Nav() {
     return (
@@ -10,10 +11,17 @@ function Nav() {
             </div>
             <nav>
                 <ul className='flex gap-5 sm:text-lg md:text-xl lg:text-xl'>
-                    <li className='py-3 sm:px-5  border-b-2 border-black hover:border-b-2 hover:border-purple'>Home</li>
-                    <li className='py-3 sm:px-5 hover:border-b-2 hover:border-purple'>About</li>
-                    <li className='py-3 sm:px-5 hover:border-b-2 hover:border-purple'>Projects</li>
-                    <li className='py-3 sm:px-5 hover:border-b-2 hover:border-purple'>Contacts</li>
+                    <li className='py-3 sm:px-5  border-b-2 border-black hover:border-b-2 hover:border-purple'>
+                        <Link to='/'>Home</Link>
+                    </li>
+                    <li className='py-3 sm:px-5 hover:border-b-2 hover:border-purple'>
+                        <Link to='/about'>About</Link>
+                    </li>
+                    <Link to='/projects'><li className='py-3 sm:px-5 hover:border-b-2 hover:border-purple'>
+                        Projects
+                    </li></Link>
+
+                    <Link to='/contact'><li className='py-3 sm:px-5 hover:border-b-2 hover:border-purple'>Contact</li></Link>
                 </ul>
             </nav>
         </div >

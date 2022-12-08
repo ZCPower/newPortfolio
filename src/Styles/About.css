@@ -1,4 +1,6 @@
 #aboutContainer {
     z-index: 8;
-    height: 125vh;
+    min-height: 100vh;
+    /* border-bottom: 3px solid white; */
+
 }

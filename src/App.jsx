@@ -5,29 +5,27 @@ import Home from './Components/Home'
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      {/* <Nav /> */}
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-      {/* <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
+      <Router>
+        <Nav />
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/about' element={<About />} />
+          <Route path='/Projects' element={<Projects />} />
+          <Route path='/contact' element={<Contact />} />
+          {/* <About />
+          <Projects />
+          <Contact /> */}
+        </Routes>
+        {/* <Contact /> */}
+      </Router>
+
     </div>
   )
 }

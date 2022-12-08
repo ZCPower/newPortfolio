@@ -3,7 +3,7 @@ import React from 'react'
 function SingleProject({ name, description, logo, image, link, github, preview }) {
     console.log('in the project')
     return (
-        <div className='singleProject bg-black w-full md:w-1/2 lg:w-1/3 shrink-0 flex flex-col justify-between'>
+        <div className='singleProject bg-black w-full sm:full md:w-1/2 xl:w-1/3 shrink-0 flex flex-col justify-between'>
             <div className='flex justify-center gap-2 p-2 items-center border-b border-purple'>
                 <h3 className='lg:text-xl 2xl:text-3xl'>{name}</h3>
                 <img className='w-10' src={logo}></img>

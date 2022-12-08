@@ -1,9 +1,10 @@
 #projContainer {
-    height: 110vh;
+    min-height: 100vh;
 }
 
 #projHouse {
     /* background-color: black; */
+    height: 73vh;
     overflow-x: scroll;
     overflow-y: none;
 }
@@ -21,5 +22,5 @@
     max-height: 30%;
 
     /* object-fit: cover; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }

@@ -12,9 +12,9 @@ function Projects() {
     })
 
     return (
-        <div id='projContainer' className='bg-darkgray lg:text-6xl 2xl:text-7xl flex flex-col justify-center items-center lg:gap-y-8 gap-y-10'>
-            <h2 className='text-4xl md:text-5xl xl:text-6xl lg:mt-6 2xl:my-6'>Projects</h2>
-            <div id='projHouse' className=' w-3/4 h-3/4 flex gap-2' >
+        <div id='projContainer' className='bg-darkgray  flex flex-col justify-center items-center lg:gap-y-4 2xl:gap-y-4'>
+            <h2 className='lg:mt-6 mb-5 lg:mb-0 text-4xl lg:text-4xl 2xl:text-6xl 2xl:my-6 2xl:mt-0'>Projects</h2>
+            <div id='projHouse' className=' w-3/4 flex gap-2 lg:h-1/2' >
                 {mappedProjects}
             </div>
         </div>

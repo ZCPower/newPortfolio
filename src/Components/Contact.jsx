@@ -19,7 +19,7 @@ function Contact() {
 
 
                     {/* Upwork Button */}
-                    <li className='flex items-center gap-2 bg-darkgray 2xl:p-4 2xl:text-2xl p-2 hover:bg-softgray text-lg'>Upwork <img className='w-6 2xl:w-8' src='https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/2x/external-upwork-a-global-freelancing-platform-where-professionals-connect-and-collaborate-remotely-logo-shadow-tal-revivo.png'></img></li>
+                    <a href='https://www.upwork.com/freelancers/~017372d05a990f2645?viewMode=1' target='_blank'><li className='flex items-center gap-2 bg-darkgray 2xl:p-4 2xl:text-2xl p-2 hover:bg-softgray text-lg'>Upwork <img className='w-6 2xl:w-8' src='https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/2x/external-upwork-a-global-freelancing-platform-where-professionals-connect-and-collaborate-remotely-logo-shadow-tal-revivo.png'></img></li></a>
 
 
                     {/* Codewars */}
