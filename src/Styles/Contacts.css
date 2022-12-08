@@ -1,5 +1,5 @@
 #contactContainer {
-    height: 25vh;
+    min-height: 30vh;
 }
 
 #contactContainer ul li {
@@ -7,5 +7,5 @@
 
 
     /* maybe? */
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }

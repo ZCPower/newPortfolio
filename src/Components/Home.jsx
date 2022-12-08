@@ -9,9 +9,9 @@ function Home() {
 
             <video autoPlay muted loop src={videoUrl} />
             <div id='intro' className='gap'>
-                <h2 className='text-7xl mb-5'>Fullstack Developer</h2>
+                <h2 className='text-5xl mb-5 pt-2 sm:text-6xl md:text-7xl lg:text-8xl'>Fullstack Developer</h2>
                 {/* Perhaps add an effect that 'types' a couple things out randomly that describe myself. */}
-                <p>Welcome to my portfolio!</p>
+                {/* <p className='text-3xl'>Fullstack Web Developer</p> */}
             </div>
         </div >
     )
