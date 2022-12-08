@@ -4,3 +4,15 @@
     /* border-bottom: 3px solid white; */
 
 }
+
+@media screen and (max-width:420px) {
+    #aboutContainer {
+        min-height: 125vh;
+    }
+}
+
+@media screen and (max-width:300px) {
+    #aboutContainer {
+        min-height: 155vh;
+    }
+}
