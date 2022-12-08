@@ -4,7 +4,7 @@ import '../Styles/Contacts.css'
 function Contact() {
     return (
         <div id='contactContainer' className='flex flex-col justify-center gap-y-5 items-center bg-black'>
-            <h2 className='text-4xl w-1/4 pb-2 border-b 2xl:text-5xl md:pb-5'>Contact</h2>
+            <h2 className='text-4xl w-3/4 lg:w-1/2 xl:w-1/3 pb-2 border-b 2xl:text-5xl md:pb-5'>Contact</h2>
             <div>
                 <ul className='flex flex-wrap justify-center gap-x-6 gap-y-4 sm:flex-row sm:gap-x-4 2xl:gap-x-6 md:mt-2'>
                     {/* LinkedIn Button */}
