@@ -12,7 +12,7 @@
 #intro {
     position: absolute;
     /* top: 35vh; */
-    background-color: #00000099;
+
     /* background-color: black; */
     border-radius: 20px;
     /* padding: 1em 2em; */
@@ -22,7 +22,51 @@
 
 #intro h2 {
     /* opacity: 0. */
+    overflow: hidden;
+    /* border-right: 5px solid #b28aff; */
+    /* white-space: nowrap; */
+    animation: typing 5s steps(22, end) infinite, blink-caret 1s step-end infinite;
+    letter-spacing: 3px;
+    background-color: #00000099;
+    /* animation-delay: 4s; */
+    /* margin: 0 auto; */
+    /* border-right: 3px solid white; */
 }
+
+/* 
+@keyframes typing {
+    0% {
+        width: 0
+    }
+
+    5% {
+        width: 0;
+    }
+
+    25% {
+        width: 100%;
+    }
+
+    50% {
+        width: 0%;
+    }
+
+    100% {
+        width: 0%
+    }
+} */
+
+/* @keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(252, 166, 74);
+    }
+} */
 
 #homeContainer video {
     /* opacity: 0.2; */
