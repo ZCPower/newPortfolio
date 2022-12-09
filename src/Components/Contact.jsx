@@ -15,7 +15,7 @@ function Contact() {
                         animate={{ x: 0, transition: { duration: 1.3 } }}
                         exit={{ y: 0 }}
                     >
-                        <a href='http://linkedin.com/in/zachpower' target="_blank">
+                        <a href='http://linkedin.com/in/zachpower' target="_blank" rel="noreferrer noopener" >
                             <li className='flex items-center gap-2 bg-darkgray 2xl:p-4 2xl:text-2xl p-2 hover:bg-softgray sm:text-lg'>LinkedIn <img className='w-6 2xl:w-8 ' src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png'></img>
                             </li>
                         </a>
@@ -40,7 +40,7 @@ function Contact() {
                         animate={{ x: 0, transition: { duration: 0.8 } }}
                         exit={{ y: 0 }}
                     >
-                        <a href='https://www.upwork.com/freelancers/~017372d05a990f2645?viewMode=1' target='_blank'><li className='flex items-center gap-2 bg-darkgray 2xl:p-4 2xl:text-2xl p-2 hover:bg-softgray text-lg'>Upwork <img className='w-6 2xl:w-8' src='https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/2x/external-upwork-a-global-freelancing-platform-where-professionals-connect-and-collaborate-remotely-logo-shadow-tal-revivo.png'></img></li></a>
+                        <a href='https://www.upwork.com/freelancers/~017372d05a990f2645?viewMode=1' target='_blank' rel="noreferrer noopener"><li className='flex items-center gap-2 bg-darkgray 2xl:p-4 2xl:text-2xl p-2 hover:bg-softgray text-lg'>Upwork <img className='w-6 2xl:w-8' src='https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/2x/external-upwork-a-global-freelancing-platform-where-professionals-connect-and-collaborate-remotely-logo-shadow-tal-revivo.png'></img></li></a>
                     </motion.div>
 
 
@@ -48,7 +48,6 @@ function Contact() {
                     <motion.div
                         initial={{ x: '-100vw' }}
                         animate={{ x: 0, transition: { duration: 0.6 } }}
-                    // exit={{ y: 0 }}
                     >
                         <a href='https://www.codewars.com/users/ZachPowerXC' target='_blank'>
                             <li className='flex items-center gap-2 bg-darkgray 2xl:p-4 2xl:text-2xl p-2 hover:bg-softgray text-lg'>Codewars <img className='w-6 2xl:w-8' src='https://img.icons8.com/office/2x/codewars.png'></img></li>
