@@ -8,14 +8,14 @@ import { useLocation, Routes, Route } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion';
 
 function AnimatedRoutes() {
-    // const location = useLocation();
+    const location = useLocation();
     return (
         <AnimatePresence>
             <Routes location={location} key={location.pathname}>
-                <Route path='/' element={<Home />} />
-                <Route path='about' element={<About />} />
-                <Route path='Projects' element={<Projects />} />
-                <Route path='contact' element={<Contact />} />
+                <Route exact path='/' element={<Home />} />
+                <Route exact path='about' element={<About />} />
+                <Route exact path='Projects' element={<Projects />} />
+                <Route exact path='contact' element={<Contact />} />
             </Routes>
         </AnimatePresence >
     )
