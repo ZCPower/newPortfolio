@@ -5,6 +5,7 @@ import { videoUrl } from './videoURL';
 
 import { motion } from 'framer-motion'
 import Typewriter from 'typewriter-effect'
+import Cursor from './cursor';
 function Home() {
     let textArr = [
         "Hi, I'm Zach.",
@@ -35,12 +36,15 @@ function Home() {
         '
         >
 
-            <video autoPlay='autoplay' muted loop disablePictureInPicture controls={false} src={videoUrl} type='video/mp4' />
+            <video autoPlay='autoplay' muted loop disablePictureInPicture controls={false} src={videoUrl} type='video/mp4' webkit-playsinline playsinline />
+
             <div id='intro' className='gap px-5'>
                 <h2 className='text-3xl mb-5 my-4 py-2 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl type' ><Typewriter
                     options={{
                         strings: ["Hi, I'm Zach.", "I'm a Fullstack developer.", "I love to build web apps."],
                         autoStart: true,
+                        delay: 75,
+                        cursor: '<span style="color: orange;">|</span>',
                         loop: true,
                     }}
                 /></h2>
