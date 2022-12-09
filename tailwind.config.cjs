@@ -9,7 +9,8 @@ module.exports = {
       'white': 'rgba(255, 255, 255, 0.87)',
       'darkgray': '#242424',
       'purple': '#b28aff',
-      'softgray': '#464646'
+      'softgray': '#464646',
+      'transparent': 'transparent'
     },
     extend: {},
   },

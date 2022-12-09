@@ -2,10 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 #navBar {
-    position: fixed;
+    position: absolute;
     /* Trying this at 10vh for now. If I decide I want the nav bar to be flew-row, it will go down to 8vh*/
     /* height: 10vh; */
     z-index: 10;
+    /* opacity: 0; */
+    top: 0;
+    left: 0;
+    background-color: transparent;
 }
 
 h1 {

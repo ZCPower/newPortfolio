@@ -1,9 +1,10 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 function SingleProject({ name, description, logo, image, link, github, preview }) {
     console.log('in the project')
     return (
-        <div className='singleProject bg-black w-full sm:full md:w-1/2 xl:w-1/3 shrink-0 flex flex-col justify-between'>
+        <motion.div className='singleProject bg-black w-full sm:full md:w-1/2 xl:w-1/3 shrink-0 flex flex-col justify-between'>
             <div className='flex justify-center gap-2 p-2 items-center border-b border-purple'>
                 <h3 className='lg:text-xl 2xl:text-3xl'>{name}</h3>
                 <img className='w-10' src={logo}></img>
@@ -19,7 +20,7 @@ function SingleProject({ name, description, logo, image, link, github, preview }
                 }
                 {/* PERHAPS BUILD SOMETHING THAT SO WHEN YOU CLICK ON A PROJECT ANYWHERE THATS NOT A BUTTON, YOU CAN VIEW ALL THE DATA OF THE PROJECT i.e. What it was built with... */}
             </div>
-        </div >
+        </motion.div >
     )
 }
 
