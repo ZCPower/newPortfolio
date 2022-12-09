@@ -19,16 +19,16 @@ function Nav() {
                     <li className='py-3 sm:px-5  border-b-2 border-transparent hover:border-b-2 hover:border-purple'>
                         <Link to='/'>Home</Link>
                     </li>
-                    <Link to='about'>
+                    <Link to='/about'>
                         <li className='py-3 sm:px-5 hover:border-b-2 hover:border-purple'>
                             About
                         </li>
                     </Link>
-                    <Link to='projects'><li className='py-3 sm:px-5 hover:border-b-2 hover:border-purple'>
+                    <Link to='/projects'><li className='py-3 sm:px-5 hover:border-b-2 hover:border-purple'>
                         Projects
                     </li></Link>
 
-                    <Link to='contact'><li className='py-3 sm:px-5 hover:border-b-2 hover:border-purple'>Contact</li></Link>
+                    <Link to='/contact'><li className='py-3 sm:px-5 hover:border-b-2 hover:border-purple'>Contact</li></Link>
                 </ul>
             </nav>
         </motion.div >
