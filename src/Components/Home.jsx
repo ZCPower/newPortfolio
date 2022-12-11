@@ -14,15 +14,17 @@ function Home() {
         "I can build you one?"
     ];
 
-    const [greeting, setGreeting] = useState(textArr[0]);
-    const [index, setIndex] = useState(0);
+    // const [greeting, setGreeting] = useState(textArr[0]);
+    // const [index, setIndex] = useState(0);
 
 
-    const [isMobile, setIsMobile] = useState(false)
+    const [isMobile, setIsMobile] = useState(false);
+
+
 
     //choose the screen size 
     const handleResize = () => {
-        if (window.innerWidth < 720) {
+        if (window.innerWidth < 520) {
             setIsMobile(true)
         } else {
             setIsMobile(false)
@@ -32,6 +34,14 @@ function Home() {
     // create an event listener
     useEffect(() => {
         window.addEventListener("resize", handleResize)
+    }, [window.innerWidth])
+
+    useEffect(() => {
+        if (window.innerWidth < 520) {
+            setIsMobile(true)
+        } else {
+            setIsMobile(false)
+        }
     })
 
 
@@ -53,9 +63,11 @@ function Home() {
         <motion.div id='homeContainer' className='flex flex-col justify-center
         '
         >
-            {!isMobile ?
+            {/* {!isMobile ?
                 <video autoPlay='autoplay' muted loop disablePictureInPicture controls={false} src={videoUrl} type='video/mp4' webkit-playsinline playsinline />
-                : <img id='videoPlaceholder' src='https://iili.io/HnpjS5l.jpg'></img>}
+                : <img id='videoPlaceholder' src='https://iili.io/HnpjS5l.jpg'></img>} */}
+
+            {isMobile ? <img id='videoPlaceholder' src='https://iili.io/HnpjS5l.jpg'></img> : <video autoPlay='autoplay' muted loop disablePictureInPicture controls={false} src={videoUrl} type='video/mp4' webkit-playsinline playsinline />}
 
 
 
