@@ -6,6 +6,8 @@
     padding: 0;
     /* margin-top: 4em; */
     background-color: black;
+    /* background-image: url('https:/iili.io/HnpjS5l.jpg');
+    background-size: cover; */
 }
 
 
@@ -68,6 +70,8 @@
     }
 } */
 
+
+
 #homeContainer video {
     /* opacity: 0.2; */
     height: 100%;
@@ -76,4 +80,10 @@
     pointer-events: none;
     background: transparent;
     border-bottom: 1px solid transparent;
+    z-index: 3;
+}
+
+#videoPlaceholder {
+    object-fit: cover;
+    height: 100vh;
 }
