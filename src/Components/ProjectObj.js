@@ -1,4 +1,5 @@
 export const projectArr = [
+
     //WEEABOO
     {
         name: 'Weeaboo',
@@ -24,9 +25,13 @@ export const projectArr = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Zrgzyq0nG2A11DlZHlWHlk8L4r-FGGhur1UPcCPe&s',
         preview: 'https://iili.io/HnFeU5x.jpg'
     },
+
     //STRANGERSTHINGS
     {
-        name: "Stranger's Things", logo: 'https://img.icons8.com/cotton/2x/box.png', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Zrgzyq0nG2A11DlZHlWHlk8L4r-FGGhur1UPcCPe&s', description: 'A Craiglist-Lite App built using React',
+        name: "Stranger's Things",
+        logo: 'https://img.icons8.com/cotton/2x/box.png',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Zrgzyq0nG2A11DlZHlWHlk8L4r-FGGhur1UPcCPe&s',
+        description: 'A Craiglist-Lite App built using React',
         link: 'https://strangersthings-zp.netlify.app/',
         github: 'https://github.com/ZCPower/StrangersThings2',
         preview: 'https://iili.io/HnFQ5Mb.jpg'
@@ -46,7 +51,10 @@ export const projectArr = [
 
     //ART COLLECTOR
     {
-        name: 'Art Collector', logo: 'https://cdn-icons-png.flaticon.com/128/1048/1048944.png', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Zrgzyq0nG2A11DlZHlWHlk8L4r-FGGhur1UPcCPe&s', description: 'An App built to practice API calls and React. Browse the Harvard Art Museum from the comfort of your home!',
+        name: 'Art Collector',
+        logo: 'https://cdn-icons-png.flaticon.com/128/1048/1048944.png',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Zrgzyq0nG2A11DlZHlWHlk8L4r-FGGhur1UPcCPe&s',
+        description: 'An App built to practice API calls and React. Browse the Harvard Art Museum from the comfort of your home!',
         link: 'https://lambent-chebakia-68ed4c.netlify.app/',
         github: 'https://github.com/ZCPower/UNIV_Art_Collector',
         preview: 'https://iili.io/HnKuUiX.jpg'
@@ -54,9 +62,19 @@ export const projectArr = [
 
 
     //SCHEDULER
-    { name: 'Scheduler', logo: 'https://cdn-icons-png.flaticon.com/128/3813/3813747.png', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Zrgzyq0nG2A11DlZHlWHlk8L4r-FGGhur1UPcCPe&s', description: 'An application that will allow an ABA Clinic to easily schedule their patients and technicians!' },
+    {
+        name: 'Scheduler',
+        logo: 'https://cdn-icons-png.flaticon.com/128/3813/3813747.png',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Zrgzyq0nG2A11DlZHlWHlk8L4r-FGGhur1UPcCPe&s',
+        description: 'An application that will allow an ABA Clinic to easily schedule their patients and technicians!'
+    },
 
 
     //QUIZLER
-    { name: 'Quizler', logo: 'https://cdn-icons-png.flaticon.com/128/3406/3406898.png', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Zrgzyq0nG2A11DlZHlWHlk8L4r-FGGhur1UPcCPe&s', description: 'An application built to help me prepare for interviews. It is intended to be a Quizlet/Chegg clone.' }
+    {
+        name: 'Quizler',
+        logo: 'https://cdn-icons-png.flaticon.com/128/3406/3406898.png',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Zrgzyq0nG2A11DlZHlWHlk8L4r-FGGhur1UPcCPe&s',
+        description: 'An application built to help me prepare for interviews. It is intended to be a Quizlet/Chegg clone.'
+    }
 ]

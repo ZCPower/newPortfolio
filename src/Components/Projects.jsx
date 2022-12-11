@@ -13,7 +13,7 @@ function Projects() {
     })
 
     return (
-        <div id='projContainer' className='bg-darkgray  flex flex-col justify-center items-center lg:gap-y-4 2xl:gap-y-4'
+        <div id='projContainer' className='bg-darkgray flex flex-col justify-center items-center lg:gap-y-4 2xl:gap-y-4'
         >
 
 
